@@ -1,0 +1,19 @@
+[
+  {
+    "namespace": "nextUnreadGroupApi",
+    "functions": [
+      {
+        "name": "nextUnreadGroup",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "loadButton",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]

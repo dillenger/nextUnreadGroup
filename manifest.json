@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Next Unread Group",
+  "description": "Adds a Group button, marks current newsgroup or folder as read and moves to the next unread message",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/next-unread-group/",
+  "version": "1.2",
+  "experiment_apis": {
+    "nextUnreadGroupApi": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["nextUnreadGroupApi"]],
+        "script": "implementation.js"
+      }
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_label": "Group",
+    "default_title": "Mark this newsgroup or folder as read, and move to the next unread message",
+    "default_icon": "nextUnreadGroup.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "nextUnreadGroup@dillinger",
+      "strict_min_version": "91.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "icons": {
+    "32": "nextUnreadGroup32.png"
+  }
+}

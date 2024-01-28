@@ -1,0 +1,14 @@
+Changelog for Next Unread Group
+
+1.2
+Moved tooltip to background.js.
+Set minimum version to Thunderbird 91.
+Set maximum version to Thunderbird 103.
+
+1.1
+Changed icon.
+Added tooltip.
+Added disabled state.
+
+1.0
+First version.
