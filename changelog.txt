@@ -1,5 +1,8 @@
 Changelog for Next Unread Group
 
+1.3
+Set maximum version to Thunderbird 125.
+
 1.2
 Moved tooltip to background.js.
 Set minimum version to Thunderbird 91.
