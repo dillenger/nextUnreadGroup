@@ -22,11 +22,11 @@
     "default_title": "Mark this newsgroup or folder as read, and move to the next unread message",
     "default_icon": "nextUnreadGroup.png"
   },
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "nextUnreadGroup@dillinger",
       "strict_min_version": "91.0",
-      "strict_max_version": "127.*"
+      "strict_max_version": "128.*"
     }
   },
   "icons": {
