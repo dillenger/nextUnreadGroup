@@ -26,7 +26,7 @@
     "gecko": {
       "id": "nextUnreadGroup@dillinger",
       "strict_min_version": "115.0",
-      "strict_max_version": "*"
+      "strict_max_version": "136.*"
     }
   },
   "icons": {
